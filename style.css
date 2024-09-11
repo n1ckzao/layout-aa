@@ -25,8 +25,8 @@ header{
     align-items: center;
 }
 .logo{
-    height: 64px;
-    width: 64px;
+    height: 80px;
+    width: 80px;
     background-color: lightgray;
 }
 .menu ul{
@@ -75,6 +75,8 @@ main{
     background-color: lightgray;
 }
 footer{
-    background-color: rgb(238, 255, 2);
-    height: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
