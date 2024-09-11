@@ -1,4 +1,21 @@
 *{
     padding: 0%;
     margin: 0%;
+    box-sizing: 0;
+}
+body{
+    height: 100vh;
+    flex-direction: column;
+}
+header{
+    background-color: red;
+    height: 100px;
+}
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+footer{
+    background-color: aliceblue;
+    height: 50px;
 }
