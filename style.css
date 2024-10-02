@@ -34,7 +34,7 @@ header{
 .menu ul{
     display: flex;
     gap: 32px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 main{
     flex-grow: 1;
@@ -56,6 +56,9 @@ main{
     font-size: 40px;
     width: 90%;
 }
+.acao{
+    padding-left: 350px;
+}
 .acao button{
     height: 110px;
     width: 400px;
@@ -73,13 +76,16 @@ main{
     height: 96px;
     width: 96px;
     border-radius: 50%;
-    background-color: lightgray;
+    background-image: url('img/icone1.png');
+    background-size: 94px 94px;
+    background-position: center;
 }
+
 .imagem{
     height: 100%;
     width: 50%;
-    background-color: lightgray;
-    background-image: url("img/ChatOn\ image.jpeg");
+    background-image: url("img/marvelspiderman.webp");
+    background-size: 1218px 1019px;
 }
 /*1218x1019*/
 footer{
